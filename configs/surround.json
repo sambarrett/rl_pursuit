@@ -1,0 +1,11 @@
+{
+  "episodesPerTrial": 1,
+  "verbosity": {"description":true, "observation": false, "stepsPerEpisode":false, "stepsPerTrial":false, "summary":true},
+  "width": 10,
+  "height": 10,
+  "actionNoise":0.0,
+  "prey": "an",
+  "predator": "sp",
+  "adhoc": "uct",
+  "predatorOptions": {"outputPenaltyMode": true}
+}

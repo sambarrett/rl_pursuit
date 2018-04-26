@@ -1,0 +1,23 @@
+{"planner":
+{
+  "silver": false,
+  "weighted": false,
+  "update": "bayesian",
+  "lambda": 0.8,
+  "gamma": 0.95,
+  "unseenValue": 9999999,
+  "initialValue": 0,
+  "initialStateVisits": 0,
+  "initialStateActionVisits": 0,
+  "playouts": 1000,
+  "time": 0,
+  "rewardBound": 0.5,
+  //"rewardRangePerStep":1.0,
+  "theoreticallyCorrectLambda": false,
+  "depth": 100,
+  //"depthFactor":2,
+  "models": [
+    { "prob": 1.0, "desc":"Greedy", "prey": "random", "predator": "gr" }
+  ]
+}
+}

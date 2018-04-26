@@ -172,7 +172,7 @@ boost::shared_ptr<Agent> createAgent(boost::shared_ptr<RNG> rng, const Point2D &
       typeNames.push_back("gr");
       typeNames.push_back("ta");
       typeNames.push_back("gp");
-      typeNames.push_back("gp");
+      typeNames.push_back("pd");
       int ind = rng->randomInt(typeNames.size());
       typeName = typeNames[ind];
     }
