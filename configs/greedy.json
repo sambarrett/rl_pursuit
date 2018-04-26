@@ -1,0 +1,9 @@
+{
+  "episodesPerTrial": 1,
+  "verbosity": {"description":true, "observation": false, "stepsPerEpisode":false, "stepsPerTrial":false, "summary":true},
+  "width": 20,
+  "height": 20,
+  "prey": "random",
+  "predator": "greedy",
+  "adhoc": "uct"
+}
